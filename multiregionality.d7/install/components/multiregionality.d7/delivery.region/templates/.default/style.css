@@ -1,0 +1,26 @@
+.multiregionality-marker {
+	display: flex;
+	flex-direction: column;
+}
+
+.multiregionality-marker-img {
+	object-fit: none;
+	height: 30px;
+	margin-bottom: 5px;
+}
+
+.multiregionality-marker-title {
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.3s ease-out;
+	background-color: #fff;
+	padding: 10px;
+	font-size: 15px;
+	box-shadow: 0px 0px 10px -7px #12122e;
+	border-radius: 3px;
+}
+
+.multiregionality-marker:hover .multiregionality-marker-title {
+	opacity: 1;
+	visibility: visible;
+}
